@@ -1,0 +1,30 @@
+.accordion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  &-item {
+    margin: 2px;
+    width: calc(100% - 4px);
+  }
+
+  &-header {
+    height: 1.25rem;
+    width: 100%;
+    padding: 1.125rem 0.25rem;
+    border: 1px solid #000;
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-collapse {
+    display: none;
+    &.show {
+      display: block;
+    }
+  }
+}

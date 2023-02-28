@@ -1,0 +1,41 @@
+@import "../../styles/variables";
+
+header.header {
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: $header-height;
+  width: 100%;
+  background-color: aquamarine;
+
+  .search-box__query {
+    font-size: 1.5rem;
+    padding: 0.2rem;
+    padding-left: 2.2rem;
+  }
+  .search-icon {
+    position: absolute;
+    top: 1.5rem;
+    left: 1.2rem;
+    cursor: pointer;
+  }
+
+  .items {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0.5rem;
+
+    .log-in {
+      border-right: 1px solid #f04400;
+      padding-right: 0.5rem;
+    }
+
+    .cart {
+      border: 1px solid #f04400;
+      padding: 0.5rem;
+    }
+  }
+}

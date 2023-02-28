@@ -1,0 +1,23 @@
+.footer {
+  background-color: #3e4400;
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem 0;
+    text-align: center;
+
+    .col {
+      width: 100%;
+    }
+    .payments {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+}
